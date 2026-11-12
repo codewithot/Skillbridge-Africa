@@ -57,10 +57,6 @@ export default function Navbar({ onOpenFindArtisan, onOpenArtisanSignup }) {
             </a>
             <a 
               href="#for-artisans" 
-              onClick={(e) => {
-                e.preventDefault();
-                onOpenArtisanSignup?.();
-              }}
               className="text-sm font-medium text-neutral-700 hover:text-[#0D4A30] transition-colors"
             >
               For artisans
@@ -117,11 +113,7 @@ export default function Navbar({ onOpenFindArtisan, onOpenArtisanSignup }) {
           </a>
           <a
             href="#for-artisans"
-            onClick={(e) => {
-              e.preventDefault();
-              setMobileMenuOpen(false);
-              onOpenArtisanSignup?.();
-            }}
+            onClick={() => setMobileMenuOpen(false)}
             className="block px-3 py-2 rounded-lg text-base font-medium text-neutral-800 hover:bg-neutral-100"
           >
             For artisans

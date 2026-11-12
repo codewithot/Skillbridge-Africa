@@ -34,10 +34,6 @@ export default function Footer({ onOpenArtisanSignup }) {
             </a>
             <a 
               href="#for-artisans" 
-              onClick={(e) => {
-                e.preventDefault();
-                onOpenArtisanSignup?.();
-              }}
               className="text-neutral-700 hover:text-[#0D4A30] font-medium transition"
             >
               For artisans

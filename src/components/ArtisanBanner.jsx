@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ArtisanBanner({ onOpenArtisanSignup }) {
   return (
-    <section id="for-artisans" className="py-16 sm:py-20 bg-white">
+    <section id="for-artisans" className="py-16 sm:py-20 bg-white scroll-mt-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-[#12221B] rounded-3xl p-8 sm:p-12 lg:p-16 text-white shadow-xl flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
           
